@@ -21,7 +21,7 @@ const Artistas = () => {
                               ? 
                               <Fragment>
                                    <div className="col-md-6">
-                                        <Informacion informacion={informacion}></Informacion>
+                                        <Informacion informacion={informacion} letra={letra}></Informacion>
                                    </div>
                                    <div className="col-md-6">
                                         <Letra title="Letra de la canción" letra={letra} artista={artista} cancion={cancion}></Letra>
